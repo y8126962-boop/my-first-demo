@@ -4,9 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>我的第一个 GitHub 项目</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #eef2ff, #fdf2f8);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      width: min(90%, 520px);
+      padding: 40px;
+      border-radius: 24px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 36px;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.7;
+    }
+
+    button {
+      margin-top: 20px;
+      border: none;
+      border-radius: 999px;
+      padding: 12px 22px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <h1>你好，GitHub！</h1>
-  <p>这是我用 ChatGPT + GitHub 创建的第一个网页。</p>
+  <div class="card">
+    <h1>你好，GitHub！</h1>
+    <p>这是我用 ChatGPT + GitHub 创建并修改的第一个网页。</p>
+    <button onclick="alert('你已经完成第一次 GitHub 网页修改！')">
+      点我试试
+    </button>
+  </div>
 </body>
 </html>
